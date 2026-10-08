@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  <rect x="45" y="95" width="110" height="46" rx="8" fill="#3f6fb5"/>
+  <rect x="60" y="70" width="80" height="28" rx="6" fill="#5a86c4"/>
+  <circle cx="66" cy="146" r="16" fill="#222"/>
+  <circle cx="66" cy="146" r="7" fill="#555"/>
+  <circle cx="134" cy="146" r="16" fill="#222"/>
+  <circle cx="134" cy="146" r="7" fill="#555"/>
+  <circle cx="100" cy="120" r="10" fill="#d9e2ec"/>
+
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">Robot Chassis 2WD</text>
+</svg>

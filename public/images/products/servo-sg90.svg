@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  <rect x="62" y="90" width="76" height="46" rx="4" fill="#3aa3dc"/>
+  <rect x="62" y="82" width="76" height="10" rx="3" fill="#2c86b8"/>
+  <circle cx="112" cy="92" r="8" fill="#fff"/>
+  <rect x="108" y="52" width="9" height="40" rx="4" fill="#e8eef0"/>
+  <circle cx="76" cy="120" r="3" fill="#1d3d57"/>
+  <circle cx="100" cy="120" r="3" fill="#1d3d57"/>
+
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">Micro Servo SG90</text>
+</svg>

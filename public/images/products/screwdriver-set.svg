@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  <g transform="translate(52,60) rotate(6)">
+      <rect x="0" y="0" width="9" height="40" rx="4" fill="#d63f2c"/>
+      <rect x="2.5" y="40" width="4" height="70" fill="#b8c4cd"/>
+    </g><g transform="translate(78,60) rotate(6)">
+      <rect x="0" y="0" width="9" height="40" rx="4" fill="#2c6ec4"/>
+      <rect x="2.5" y="40" width="4" height="70" fill="#b8c4cd"/>
+    </g><g transform="translate(104,60) rotate(6)">
+      <rect x="0" y="0" width="9" height="40" rx="4" fill="#0f7a52"/>
+      <rect x="2.5" y="40" width="4" height="70" fill="#b8c4cd"/>
+    </g><g transform="translate(130,60) rotate(6)">
+      <rect x="0" y="0" width="9" height="40" rx="4" fill="#f2b705"/>
+      <rect x="2.5" y="40" width="4" height="70" fill="#b8c4cd"/>
+    </g>
+  <rect x="40" y="150" width="120" height="16" rx="4" fill="#2c2f33"/>
+
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">Screwdriver Tool Set</text>
+</svg>

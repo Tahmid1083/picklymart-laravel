@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  <g transform="translate(100,105)">
+    <rect x="-47" y="-8" width="94" height="105" rx="9" fill="#f4f6f7"/>
+    <rect x="-47" y="-8" width="39.16666666666667" height="105" rx="9" fill="#e5eaec"/>
+    <ellipse cx="0" cy="-8" rx="47" ry="14" fill="#ffffff"/>
+    <ellipse cx="0" cy="-8" rx="15.666666666666666" ry="5" fill="#4a4f52"/>
+    <ellipse cx="0" cy="-8" rx="29.375" ry="9" fill="none" stroke="#c3cdd1" stroke-width="1.5"/>
+  </g>
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">79mm x 50m POS Roll</text>
+</svg>

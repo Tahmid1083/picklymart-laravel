@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="pb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e77b8"/>
+      <stop offset="1" stop-color="#1c5a93"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="300" fill="url(#pb)"/>
+  <g transform="translate(120,150) rotate(-6)">
+    <rect x="-55" y="0" width="110" height="82" rx="8" fill="#ffffff"/>
+    <ellipse cx="0" cy="0" rx="55" ry="16" fill="#f0f4f6"/>
+    <ellipse cx="0" cy="0" rx="18" ry="5.5" fill="#4a4f52"/>
+  </g>
+  <text x="230" y="118" font-family="Public Sans, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">PREMIUM</text>
+  <text x="230" y="152" font-family="Public Sans, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">QUALITY</text>
+  <text x="230" y="186" font-family="Public Sans, Arial, sans-serif" font-size="15" font-weight="600" fill="#bfe0f5">BPA FREE POS PAPER</text>
+  <rect x="230" y="204" width="12" height="12" fill="#9ccb87"/><text x="250" y="215" font-family="Public Sans, Arial, sans-serif" font-size="13" fill="#eaf5fc">● Protective Layer</text>
+  <rect x="230" y="228" width="12" height="12" fill="#9ccb87"/><text x="250" y="239" font-family="Public Sans, Arial, sans-serif" font-size="13" fill="#eaf5fc">● Clear Print Quality</text>
+  <rect x="230" y="252" width="12" height="12" fill="#9ccb87"/><text x="250" y="263" font-family="Public Sans, Arial, sans-serif" font-size="13" fill="#eaf5fc">● Thermal Coated Layers</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  
+  <rect x="35" y="35" width="130" height="130" rx="10" fill="#2f6ea8"/>
+  <rect x="42" y="42" width="116" height="116" rx="7" fill="none" stroke="#235682" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="52" cy="52" r="4" fill="#d8d8d8"/>
+  <circle cx="148" cy="148" r="4" fill="#d8d8d8"/>
+  <circle cx="52" cy="148" r="4" fill="#d8d8d8"/>
+  <circle cx="148" cy="52" r="4" fill="#d8d8d8"/>
+  <rect x="72" y="78" width="56" height="44" rx="4" fill="#1d3d57"/>
+  <circle cx="100" cy="100" r="14" fill="#3aa3dc"/>
+  <path d="M100 90 v20 M90 100 h20" stroke="#eaf5fc" stroke-width="2.5"/>
+
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">TTP223 Touch Sensor</text>
+</svg>

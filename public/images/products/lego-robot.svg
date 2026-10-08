@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  <rect x="70" y="90" width="60" height="44" rx="6" fill="#f2b705"/>
+  <rect x="82" y="58" width="36" height="34" rx="6" fill="#3aa3dc"/>
+  <circle cx="92" cy="72" r="5" fill="#fff"/>
+  <circle cx="108" cy="72" r="5" fill="#fff"/>
+  <rect x="56" y="132" width="20" height="26" rx="4" fill="#d63f2c"/>
+  <rect x="124" y="132" width="20" height="26" rx="4" fill="#d63f2c"/>
+
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">LEGO Robotics Kit</text>
+</svg>

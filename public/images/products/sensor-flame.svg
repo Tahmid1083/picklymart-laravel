@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f7f9f8"/>
+  
+  
+  <rect x="35" y="35" width="130" height="130" rx="10" fill="#1f5fa8"/>
+  <rect x="42" y="42" width="116" height="116" rx="7" fill="none" stroke="#174a85" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="52" cy="52" r="4" fill="#d8d8d8"/>
+  <circle cx="148" cy="148" r="4" fill="#d8d8d8"/>
+  <circle cx="52" cy="148" r="4" fill="#d8d8d8"/>
+  <circle cx="148" cy="52" r="4" fill="#d8d8d8"/>
+  <rect x="72" y="70" width="56" height="36" rx="3" fill="#12161c"/>
+  <path d="M100 118 q10 12 0 24 q-10 -12 0 -24" fill="#e8a13c"/>
+  <path d="M100 126 q6 8 0 15 q-6 -7 0 -15" fill="#f4d35e"/>
+
+  <text x="100" y="192" text-anchor="middle" font-family="Arial" font-size="10" fill="#8a9a90">Flame Sensor</text>
+</svg>
