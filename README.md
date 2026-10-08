@@ -3,8 +3,11 @@
 A Laravel-based ecommerce website inspired by **picklymart.com**.
 The project is built with **Laravel 10, PHP, MySQL, HTML, CSS, and JavaScript** and is designed to run easily on **XAMPP**.
 
-> This project is created for learning and educational purposes.
+## 📸 Website Preview
 
+<p align="center">
+  <img src="homepage.png" width="900">
+</p>
 ---
 
 ## ✨ Features
