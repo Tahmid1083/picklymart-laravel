@@ -1,10 +1,5 @@
 <?php
 
-use App\Http\Controllers\Admin\CategoryController as AdminCategoryController;
-use App\Http\Controllers\Admin\DashboardController as AdminDashboardController;
-use App\Http\Controllers\Admin\MessageController as AdminMessageController;
-use App\Http\Controllers\Admin\OrderController as AdminOrderController;
-use App\Http\Controllers\Admin\ProductController as AdminProductController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoryController;
@@ -63,23 +58,4 @@ Route::middleware('auth')->group(function () {
     Route::post('/wishlist/toggle', [WishlistController::class, 'toggle'])->name('wishlist.toggle');
     Route::get('/orders', [PageController::class, 'orders'])->name('orders.index');
     Route::post('/product/{product}/review', [ProductController::class, 'storeReview'])->name('product.review');
-});
-
-/*
-|--------------------------------------------------------------------------
-| Admin panel
-|--------------------------------------------------------------------------
-*/
-
-Route::prefix('admin')->name('admin.')->middleware(['auth', 'admin'])->group(function () {
-    Route::get('/', [AdminDashboardController::class, 'index'])->name('dashboard');
-
-    Route::resource('products', AdminProductController::class)->except('show');
-    Route::resource('categories', AdminCategoryController::class)->except('show');
-    Route::get('orders', [AdminOrderController::class, 'index'])->name('orders.index');
-    Route::get('orders/{order}', [AdminOrderController::class, 'show'])->name('orders.show');
-    Route::patch('orders/{order}/status', [AdminOrderController::class, 'updateStatus'])->name('orders.status');
-    Route::get('messages', [AdminMessageController::class, 'index'])->name('messages.index');
-    Route::patch('messages/{message}/read', [AdminMessageController::class, 'markRead'])->name('messages.read');
-    Route::delete('messages/{message}', [AdminMessageController::class, 'destroy'])->name('messages.destroy');
 });

@@ -194,19 +194,6 @@ http://127.0.0.1:8000
 
 # 🔑 Demo Accounts
 
-### Admin
-
-```text
-Email: admin@picklymart.com
-Password: admin123
-```
-
-Admin panel:
-
-```text
-http://localhost/picklymart-laravel/public/admin
-```
-
 ### Customer
 
 ```text
@@ -243,7 +230,6 @@ picklymart-laravel/
 │       ├── checkout/
 │       ├── auth/
 │       ├── pages/
-│       └── admin/
 │
 ├── public/
 │   ├── css/

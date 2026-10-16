@@ -8,7 +8,7 @@
         <h1>Welcome back 👋</h1>
         <p class="sub">Login to your Picklymart account</p>
 
-        <div class="demo-note">Demo admin — <b>admin@picklymart.com</b> / <b>admin123</b> &nbsp;·&nbsp; Demo customer — <b>customer@picklymart.com</b> / <b>customer123</b></div>
+        <div class="demo-note">Demo customer — <b>customer@picklymart.com</b> / <b>customer123</b></div>
 
         <form action="{{ route('login.attempt') }}" method="POST">
             @csrf

@@ -15,7 +15,6 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'user_type',
         'phone',
         'address',
         'city',
@@ -30,11 +29,6 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
-
-    public function isAdmin(): bool
-    {
-        return $this->user_type === 'admin';
-    }
 
     public function reviews()
     {

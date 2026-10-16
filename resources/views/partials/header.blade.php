@@ -36,7 +36,7 @@
                 </span>
                 @auth
                     <span class="account-links">
-                        <a href="{{ auth()->user()->isAdmin() ? route('admin.dashboard') : route('orders.index') }}">{{ auth()->user()->name }}</a>
+                        <a href="{{ route('orders.index') }}">{{ auth()->user()->name }}</a>
                         <span class="sep">|</span>
                         <form action="{{ route('logout') }}" method="POST" style="display:inline">@csrf<button type="submit" style="background:none;border:0;color:inherit;font:inherit;cursor:pointer">Logout</button></form>
                     </span>

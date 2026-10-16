@@ -16,4 +16,9 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function test_the_admin_panel_is_no_longer_available(): void
+    {
+        $this->get('/admin')->assertNotFound();
+    }
 }

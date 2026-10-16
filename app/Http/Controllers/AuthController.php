@@ -28,7 +28,7 @@ class AuthController extends Controller
 
             $user = Auth::user();
 
-            return redirect()->intended($user->isAdmin() ? route('admin.dashboard') : route('home'))
+            return redirect()->intended(route('home'))
                 ->with('success', 'Welcome back, ' . $user->name . '!');
         }
 
@@ -57,7 +57,6 @@ class AuthController extends Controller
             'phone'    => $validated['phone'] ?? null,
             'address'  => $validated['address'] ?? null,
             'password' => Hash::make($validated['password']),
-            'user_type' => 'customer',
         ]);
 
         Auth::login($user);
