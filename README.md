@@ -47,8 +47,6 @@ The project is built with **Laravel 10, PHP, MySQL, HTML, CSS, and JavaScript** 
 | JavaScript | Frontend interactions    |
 | XAMPP      | Local development server |
 
-No Node.js, npm, or Vite build process is required.
-
 ---
 
 ## 📋 Requirements
