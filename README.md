@@ -1,52 +1,22 @@
-# 🛒 Picklymart — Laravel Ecommerce Clone
+# Picklymart — Laravel Based Ecommerce Website
 
-A responsive, multi-vendor-style ecommerce website inspired by [Picklymart](https://picklymart.com/). Built with **Laravel 10, PHP, MySQL, Blade, CSS, and JavaScript**, this project recreates a modern online shopping experience with product browsing, cart management, checkout, customer accounts, and an admin dashboard.
-
-Designed to run locally using **XAMPP**, without requiring Node.js, npm, or a frontend build process.
+A Laravel-based ecommerce website inspired by **picklymart.com**.
+The project is built with **Laravel 10, PHP, MySQL, HTML, CSS, and JavaScript** and is designed to run easily on **XAMPP**.
 
 ## 📸 Website Preview
 
-<p align="center">
-  <img src="Screenshots/homepage.png" alt="Picklymart Homepage" width="900">
-</p>
-
-<p align="center">
-  <b>Homepage — Product discovery, deals, categories, and featured sellers</b>
-</p>
-
-### More Screenshots
-
-<details>
-<summary><b>View all website screenshots</b></summary>
-
-#### Product Details
-<img src="Screenshots/A_product_dashboard.png" alt="Product Details Page" width="800">
-
-#### Categories
-<img src="Screenshots/All_category.png" alt="All Categories Page" width="800">
-
-#### Top Sellers
-<img src="Screenshots/Top_sellers.png" alt="Top Sellers Page" width="800">
-
-#### Shopping Cart
-<img src="Screenshots/Cart_dashboard.png" alt="Shopping Cart Page" width="800">
-
-#### Checkout
-<img src="Screenshots/Checkout_Dashboard.png" alt="Checkout Page" width="800">
-
-#### Customer Login
-<img src="Screenshots/Login_page.png" alt="Login Page" width="800">
-
-#### Customer Registration
-<img src="Screenshots/Registration.png" alt="Registration Page" width="800">
-
-#### Contact Us
-<img src="Screenshots/Contact_us.png" alt="Contact Page" width="800">
-
-#### Join as a Seller
-<img src="Screenshots/Join_as_sellers_dashboard.png" alt="Join as a Seller Page" width="800">
-
-</details>
+| Screenshot | Description |
+| --- | --- |
+| ![Homepage](Screenshots/homepage.png) | The storefront homepage with featured products and shopping sections. |
+| ![All categories](Screenshots/All_category.png) | Browse the store's product categories. |
+| ![Product dashboard](Screenshots/A_product_dashboard.png) | View product details, images, and purchase options. |
+| ![Top sellers](Screenshots/Top_sellers.png) | Discover the store's featured sellers. |
+| ![Cart dashboard](Screenshots/Cart_dashboard.png) | Review items and quantities in the shopping cart. |
+| ![Checkout dashboard](Screenshots/Checkout_Dashboard.png) | Enter delivery and payment details to place an order. |
+| ![Login page](Screenshots/Login_page.png) | Sign in to an existing customer account. |
+| ![Registration](Screenshots/Registration.png) | Create a new customer account. |
+| ![Contact us](Screenshots/Contact_us.png) | Send a message to the Picklymart team. |
+| ![Join as sellers](Screenshots/Join_as_sellers_dashboard.png) | View the page for sellers interested in joining Picklymart. |
 
 ---
 
