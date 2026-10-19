@@ -192,14 +192,6 @@ The following credentials are available only if the corresponding demo accounts 
 |---|---|---|
 | Customer | `customer@picklymart.com` | `customer123` |
 
-**Admin panel:** `/admin`
-
-For a local XAMPP installation:
-
-[http://localhost/picklymart-laravel/public/admin](http://localhost/picklymart-laravel/public/admin)
-
-Use the admin credentials configured in your seeders. Do not assume an admin account exists unless the seeders create it.
-
 ---
 
 ## 📁 Project Structure
