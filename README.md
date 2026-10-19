@@ -5,9 +5,19 @@ The project is built with **Laravel 10, PHP, MySQL, HTML, CSS, and JavaScript** 
 
 ## 📸 Website Preview
 
-<p align="center">
-  <img src="homepage.png" width="900">
-</p>
+| Screenshot | Description |
+| --- | --- |
+| ![Homepage](Screenshots/homepage.png) | The storefront homepage with featured products and shopping sections. |
+| ![All categories](Screenshots/All_category.png) | Browse the store's product categories. |
+| ![Product dashboard](Screenshots/A_product_dashboard.png) | View product details, images, and purchase options. |
+| ![Top sellers](Screenshots/Top_sellers.png) | Discover the store's featured sellers. |
+| ![Cart dashboard](Screenshots/Cart_dashboard.png) | Review items and quantities in the shopping cart. |
+| ![Checkout dashboard](Screenshots/Checkout_Dashboard.png) | Enter delivery and payment details to place an order. |
+| ![Login page](Screenshots/Login_page.png) | Sign in to an existing customer account. |
+| ![Registration](Screenshots/Registration.png) | Create a new customer account. |
+| ![Contact us](Screenshots/Contact_us.png) | Send a message to the Picklymart team. |
+| ![Join as sellers](Screenshots/Join_as_sellers_dashboard.png) | View the page for sellers interested in joining Picklymart. |
+
 ---
 
 ## ✨ Features
