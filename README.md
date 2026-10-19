@@ -1,324 +1,339 @@
-# Picklymart — Laravel Ecommerce Clone
+# 🛒 Picklymart — Laravel Ecommerce Clone
 
-A Laravel-based ecommerce website inspired by **picklymart.com**.
-The project is built with **Laravel 10, PHP, MySQL, HTML, CSS, and JavaScript** and is designed to run easily on **XAMPP**.
+A responsive, multi-vendor-style ecommerce website inspired by [Picklymart](https://picklymart.com/). Built with **Laravel 10, PHP, MySQL, Blade, CSS, and JavaScript**, this project recreates a modern online shopping experience with product browsing, cart management, checkout, customer accounts, and an admin dashboard.
+
+Designed to run locally using **XAMPP**, without requiring Node.js, npm, or a frontend build process.
 
 ## 📸 Website Preview
 
-| Screenshot | Description |
-| --- | --- |
-| ![Homepage](Screenshots/homepage.png) | The storefront homepage with featured products and shopping sections. |
-| ![All categories](Screenshots/All_category.png) | Browse the store's product categories. |
-| ![Product dashboard](Screenshots/A_product_dashboard.png) | View product details, images, and purchase options. |
-| ![Top sellers](Screenshots/Top_sellers.png) | Discover the store's featured sellers. |
-| ![Cart dashboard](Screenshots/Cart_dashboard.png) | Review items and quantities in the shopping cart. |
-| ![Checkout dashboard](Screenshots/Checkout_Dashboard.png) | Enter delivery and payment details to place an order. |
-| ![Login page](Screenshots/Login_page.png) | Sign in to an existing customer account. |
-| ![Registration](Screenshots/Registration.png) | Create a new customer account. |
-| ![Contact us](Screenshots/Contact_us.png) | Send a message to the Picklymart team. |
-| ![Join as sellers](Screenshots/Join_as_sellers_dashboard.png) | View the page for sellers interested in joining Picklymart. |
+<p align="center">
+  <img src="Screenshots/homepage.png" alt="Picklymart Homepage" width="900">
+</p>
+
+<p align="center">
+  <b>Homepage — Product discovery, deals, categories, and featured sellers</b>
+</p>
+
+### More Screenshots
+
+<details>
+<summary><b>View all website screenshots</b></summary>
+
+#### Product Details
+<img src="Screenshots/A_product_dashboard.png" alt="Product Details Page" width="800">
+
+#### Categories
+<img src="Screenshots/All_category.png" alt="All Categories Page" width="800">
+
+#### Top Sellers
+<img src="Screenshots/Top_sellers.png" alt="Top Sellers Page" width="800">
+
+#### Shopping Cart
+<img src="Screenshots/Cart_dashboard.png" alt="Shopping Cart Page" width="800">
+
+#### Checkout
+<img src="Screenshots/Checkout_Dashboard.png" alt="Checkout Page" width="800">
+
+#### Customer Login
+<img src="Screenshots/Login_page.png" alt="Login Page" width="800">
+
+#### Customer Registration
+<img src="Screenshots/Registration.png" alt="Registration Page" width="800">
+
+#### Contact Us
+<img src="Screenshots/Contact_us.png" alt="Contact Page" width="800">
+
+#### Join as a Seller
+<img src="Screenshots/Join_as_sellers_dashboard.png" alt="Join as a Seller Page" width="800">
+
+</details>
 
 ---
 
 ## ✨ Features
 
-### 🛍️ Customer / Storefront
+### 🛍️ Customer Storefront
+- Responsive homepage with product deals and featured sections.
+- Product categories and category-based browsing.
+- Product search, sorting, and price-range filtering.
+- Product details with image gallery and quantity selector.
+- Shopping cart with add, update, and remove functionality.
+- Wishlist and product reviews with ratings.
+- Checkout with Cash on Delivery, bKash, and Nagad options.
+- Order confirmation and customer order history.
+- Customer registration and login.
+- Contact form and informational pages.
+- Wholesale and seller-related pages.
+- Bangladeshi Taka (৳) currency formatting.
 
-* Responsive ecommerce homepage
-* Product categories and category pages
-* Product search
-* Product sorting and price filtering
-* Product details with image gallery
-* Product quantity selector
-* Shopping cart
-* Wishlist
-* Product reviews and ratings
-* Checkout system
-* Cash on Delivery, bKash and Nagad payment options
-* Order confirmation
-* Customer registration and login
-* Customer order history
-* Contact form
-* Wholesale page
-* Terms, Return, Support and Privacy pages
-* BDT (৳) currency support
+### 🔐 Admin Dashboard
+- Dashboard with statistics and recent orders.
+- Create, view, update, and delete products.
+- Manage categories and parent-child relationships.
+- Configure featured, new, best-selling, and deal products.
+- Manage customer orders and update their statuses.
+- View and manage contact messages.
 
+### 🎨 User Experience
+- Responsive layouts for desktop and mobile devices.
+- Consistent ecommerce styling and reusable Blade templates.
+- Interactive product galleries, quantity controls, and carousels.
+- Session-based shopping cart.
+
+---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose                  |
-| ---------- | ------------------------ |
-| Laravel 10 | Backend framework        |
-| PHP 8.1+   | Server-side programming  |
-| MySQL      | Database                 |
-| Blade      | Frontend templates       |
-| HTML5      | Page structure           |
-| CSS3       | Styling                  |
-| JavaScript | Frontend interactions    |
-| XAMPP      | Local development server |
+| Technology | Purpose |
+|---|---|
+| PHP 8.1+ | Backend programming |
+| Laravel 10 | Web application framework |
+| MySQL | Relational database |
+| Blade | Server-rendered templates |
+| HTML5 | Page structure |
+| CSS3 | Styling and responsive layouts |
+| JavaScript | Frontend interactions |
+| Apache / XAMPP | Local development environment |
+| Composer | PHP dependency management |
 
 ---
 
 ## 📋 Requirements
 
-Before installing the project, make sure you have:
+Install the following before running the project:
 
-* XAMPP with PHP **8.1 or higher**
-* Apache
-* MySQL
-* Composer 2.x
-* Web browser
+- [XAMPP](https://www.apachefriends.org/) with PHP 8.1 or higher
+- [Composer 2.x](https://getcomposer.org/download/)
+- A modern web browser
 
-Composer can be downloaded from:
-
-https://getcomposer.org/download/
+Apache and MySQL should be available through the XAMPP Control Panel.
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation Guide
 
-## 1. Copy the project
+Follow these steps to run Picklymart on Windows using XAMPP.
 
-Copy the project folder into the XAMPP `htdocs` directory:
+### 1. Clone the repository
 
-```text
-C:\xampp\htdocs\picklymart-laravel
+Open PowerShell or the VS Code terminal:
+
+```powershell
+cd C:\xampp\htdocs
+git clone https://github.com/Tahmid1083/picklymart-laravel.git
+cd picklymart-laravel
 ```
 
----
+Alternatively, download the repository as a ZIP file and extract it into `C:\xampp\htdocs`.
 
-## 2. Start XAMPP
+### 2. Start XAMPP
 
 Open the XAMPP Control Panel and start:
 
-* Apache
-* MySQL
+- Apache
+- MySQL
 
----
+### 3. Create the database
 
-## 3. Create the database
+1. Open [phpMyAdmin](http://localhost/phpmyadmin).
+2. Click **New**.
+3. Create a database named `picklymart`.
+4. Select the `utf8mb4_unicode_ci` collation if available.
 
-Open phpMyAdmin:
+### 4. Install dependencies
 
-```text
-http://localhost/phpmyadmin
-```
-
-Create a new database named:
-
-```text
-picklymart
-```
-
-Recommended collation:
-
-```text
-utf8mb4_unicode_ci
-```
-
----
-
-## 4. Install Laravel dependencies
-
-Open Command Prompt inside the project folder:
-
-```bash
-cd C:\xampp\htdocs\picklymart-laravel
-```
-
-Then run:
+Run this command from the project directory:
 
 ```bash
 composer install
 ```
 
----
+### 5. Configure the environment
 
-## 5. Configure the environment
+Create your local `.env` file from the example:
 
-The project includes a `.env` file configured for XAMPP.
+```powershell
+Copy-Item .env.example .env
+```
 
-The database settings should be:
+If `.env.example` does not exist, create one using the required settings from the project's Laravel configuration.
+
+Configure your local database connection in `.env`:
 
 ```env
+APP_NAME=Picklymart
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://localhost/picklymart-laravel/public
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
 DB_DATABASE=picklymart
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-If you need to generate a new application key:
+These database credentials assume a default local XAMPP installation. Use your own database credentials if they differ.
+
+Generate an application key:
 
 ```bash
 php artisan key:generate
 ```
 
----
-
-## 6. Create database tables and demo data
-
-Run:
+### 6. Run database migrations and seeders
 
 ```bash
 php artisan migrate --seed
 ```
 
-This will create the database tables and insert the demo data.
+This creates the database tables and inserts demo data configured by the project's seeders, such as sample products, categories, and accounts.
 
-The seed data includes:
+### 7. Start the website
 
-* Categories
-* Products
-* Sellers
-* Admin account
-* Demo customer account
-
----
-
-# 🌐 Running the Website
-
-### Option 1 — XAMPP
+**Option A — XAMPP**
 
 Open:
 
-```text
-http://localhost/picklymart-laravel/public
-```
+[http://localhost/picklymart-laravel/public](http://localhost/picklymart-laravel/public)
 
-### Option 2 — Laravel Development Server
+**Option B — Laravel development server**
 
-From the project folder, run:
+Run:
 
 ```bash
 php artisan serve
 ```
 
-Then open:
+Then visit:
 
-```text
-http://127.0.0.1:8000
-```
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
 
----
-
-# 🔑 Demo Accounts
-
-### Customer
-
-```text
-Email: customer@picklymart.com
-Password: customer123
-```
-
-New customers can also register from the website.
+If Laravel reports a storage or cache permission error, make sure `storage/` and `bootstrap/cache/` are writable.
 
 ---
 
-# 📁 Project Structure
+## 🔑 Demo Accounts
+
+The following credentials are available only if the corresponding demo accounts are configured by the project's seeders.
+
+| Role | Email | Password |
+|---|---|---|
+| Customer | `customer@picklymart.com` | `customer123` |
+
+**Admin panel:** `/admin`
+
+For a local XAMPP installation:
+
+[http://localhost/picklymart-laravel/public/admin](http://localhost/picklymart-laravel/public/admin)
+
+Use the admin credentials configured in your seeders. Do not assume an admin account exists unless the seeders create it.
+
+---
+
+## 📁 Project Structure
 
 ```text
 picklymart-laravel/
-│
 ├── app/
-│   ├── Http/Controllers/
-│   ├── Models/
-│   └── Services/
-│
+│   ├── Http/Controllers/    # Application controllers
+│   ├── Models/              # Eloquent models
+│   └── Services/             # Business logic and cart service
+├── bootstrap/                # Laravel bootstrap files
+├── config/                   # Application configuration
 ├── database/
-│   ├── migrations/
-│   └── seeders/
-│
-├── resources/
-│   └── views/
-│       ├── layouts/
-│       ├── partials/
-│       ├── home/
-│       ├── products/
-│       ├── category/
-│       ├── cart/
-│       ├── checkout/
-│       ├── auth/
-│       ├── pages/
-│
+│   ├── migrations/           # Database schema
+│   └── seeders/              # Demo data
 ├── public/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
+│   ├── css/                  # Stylesheets
+│   ├── js/                   # JavaScript
+│   └── images/               # Website images and assets
+├── resources/
+│   └── views/                # Blade templates
 ├── routes/
-│   └── web.php
-│
-├── .env
-└── composer.json
+│   └── web.php               # Web routes
+├── Screenshots/              # README preview images
+├── .env.example              # Example environment configuration
+├── .gitignore
+├── artisan
+├── composer.json
+├── composer.lock
+└── README.md
 ```
 
 ---
 
-# 🛠️ Common Problems
+## 🛠️ Troubleshooting
 
 ### `could not find driver`
 
-Open:
+1. Open `C:\xampp\php\php.ini`.
+2. Find `;extension=pdo_mysql`.
+3. Remove the leading semicolon if the extension is disabled.
+4. Restart Apache and try again.
 
-```text
-C:\xampp\php\php.ini
-```
+### Composer reports a PHP version error
 
-Make sure this extension is enabled:
-
-```ini
-extension=pdo_mysql
-```
-
-Restart Apache after making the change.
-
----
-
-### Laravel 404 error
-
-If you are using XAMPP, make sure you include the `public` directory:
-
-```text
-http://localhost/picklymart-laravel/public
-```
-
----
-
-### Composer PHP version error
-
-Check your PHP version:
+Check the PHP version used by your terminal:
 
 ```bash
 php -v
 ```
 
-Laravel 10 requires PHP 8.1 or higher.
+Make sure Composer uses a compatible PHP installation.
 
----
+### Laravel returns a 404 error
 
-### Reset the database
+For XAMPP, verify that the URL includes `/public`:
 
-To remove the existing tables and recreate the demo data:
+```text
+http://localhost/picklymart-laravel/public
+```
+
+### Database connection error
+
+- Make sure MySQL is running.
+- Verify the database name and credentials in `.env`.
+- Confirm that the `picklymart` database exists.
+
+### Reset the demo database
 
 ```bash
 php artisan migrate:fresh --seed
 ```
 
-**Warning:** This deletes the existing database tables and data.
+**Warning:** This command drops existing tables and data before recreating them. Do not use it on a database containing data you need to keep.
 
 ---
 
-## 📌 Important Notes
+## 🔒 Security Notes
 
-* This project is intended for **learning and educational purposes**.
-* The design and product information are inspired by the public Picklymart storefront.
-* It uses Laravel Blade, Eloquent ORM and session-based cart functionality.
-* No frontend build process is required.
-* Payment methods such as bKash and Nagad are included as checkout options for demonstration purposes.
+- Never commit `.env`, passwords, API keys, or other secrets.
+- Keep `.env.example` free of real credentials.
+- Use `APP_DEBUG=false` and secure production configuration when deploying.
+- The demo account credentials are for local development only; change them before any public deployment.
+- Payment options are presented as demonstration functionality unless real payment gateway integration has been implemented and configured.
 
 ---
+
+## 📌 Project Notes
+
+- Created for learning and educational purposes.
+- Inspired by the publicly accessible Picklymart storefront.
+- Uses Laravel Blade, Eloquent ORM, and session-based cart functionality.
+- Does not require a Node.js or npm build step.
+- Actual functionality depends on the implementation and configuration in the source code.
 
 ## 👨‍💻 Author
 
 **Tahmid Jamal**
 
-GitHub: `Tahmid1083`
+- GitHub: [@Tahmid1083](https://github.com/Tahmid1083)
+- Project Repository: [picklymart-laravel](https://github.com/Tahmid1083/picklymart-laravel)
+
+---
+
+<p align="center">
+  <b>Built with Laravel and PHP ❤️</b>
+</p>
