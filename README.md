@@ -181,7 +181,6 @@ Then visit:
 [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 If Laravel reports a storage or cache permission error, make sure `storage/` and `bootstrap/cache/` are writable.
-
 ---
 
 ## 🔑 Demo Accounts
