@@ -1,0 +1,42 @@
+databases:
+  - name: picklymart-db
+    databaseName: picklymart
+    user: picklymart
+    region: oregon
+    plan: free
+
+services:
+  - type: web
+    name: picklymart
+    runtime: docker
+    region: oregon
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_KEY
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: PORT
+        value: "10000"
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DATABASE_URL
+        fromDatabase:
+          name: picklymart-db
+          property: connectionString
+      - key: SESSION_DRIVER
+        value: file
+      - key: CACHE_STORE
+        value: file
+      - key: QUEUE_CONNECTION
+        value: sync
+      - key: FILESYSTEM_DISK
+        value: local
+      - key: MAIL_MAILER
+        value: log
+    startCommand: php artisan migrate --force && apache2-foreground

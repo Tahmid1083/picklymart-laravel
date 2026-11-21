@@ -1,0 +1,11 @@
+.env
+.env.*
+.git
+.github
+.vscode
+vendor
+node_modules
+Screenshots.zip
+phpunit.xml
+tests
+storage/logs/*
